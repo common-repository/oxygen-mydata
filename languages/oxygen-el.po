@@ -1,0 +1,659 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oxygen MyData for WooCommerce\n"
+"POT-Creation-Date: 2024-03-29 05:16+0200\n"
+"PO-Revision-Date: 2024-10-10 14:21+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: oxygen-mydata.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;"
+"esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/class-oxygen.php:105
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#. Author of the plugin/theme
+#: inc/class-oxygenorder.php:188 inc/class-oxygenorder.php:1394 inc/class-oxygenwoosettings.php:83
+msgid "Oxygen"
+msgstr "Oxygen"
+
+#: inc/class-oxygenorder.php:215
+msgid "Oxygen setup"
+msgstr "Ρυθμίσεις Oxygen"
+
+#: inc/class-oxygenorder.php:239
+msgid "View Receipt"
+msgstr "Προβολή απόδειξης"
+
+#: inc/class-oxygenorder.php:241 inc/class-oxygenorder.php:1423 inc/class-oxygenorder.php:1732
+msgid "View Invoice"
+msgstr "Προβολή Τιμολογίου"
+
+#: inc/class-oxygenorder.php:245 inc/class-oxygenorder.php:1424 inc/class-oxygenorder.php:1733
+msgid "PDF Download"
+msgstr "Λήψη PDF"
+
+#: inc/class-oxygenorder.php:249
+msgid "Oxygen Receipt"
+msgstr "Απόδειξη Oxygen"
+
+#: inc/class-oxygenorder.php:251
+msgid "Oxygen invoice:"
+msgstr "Τιμολόγιο Oxygen:"
+
+#: inc/class-oxygenorder.php:264
+msgid "Payment Note Type"
+msgstr "Τύπος Εγγράφου"
+
+#: inc/class-oxygenorder.php:278
+msgid "Create Invoice"
+msgstr "Δημιουργία τιμολογίου"
+
+#: inc/class-oxygenorder.php:283 inc/class-oxygenorder.php:1441 inc/class-oxygenorder.php:1742
+msgid "View Notice"
+msgstr "Προβολή ειδοποίησης"
+
+#: inc/class-oxygenorder.php:287
+msgid "Create Notice"
+msgstr "Δημιουργία ειδοποίησης"
+
+#. translators: %s: URL to Oxygen platform
+#: inc/class-oxygenorder.php:383
+#, php-format
+msgid "<p>The Oxygen API key is missing. <a href=\"%s\">Click here to add one</a>.</p>"
+msgstr "<p>Το κλειδί API του Oxygen δεν υπάρχει. <a href=\"%s\">Κάντε κλικ εδώ για να προσθέσετε ένα</a>.</p>"
+
+#: inc/class-oxygenorder.php:445
+msgid "Invalid Oxygen action"
+msgstr "Μη έγκυρη λειτουργία"
+
+#: inc/class-oxygenorder.php:449 inc/class-oxygenorder.php:546 inc/class-oxygenorder.php:549
+msgid "Payment Note Type has not been defined"
+msgstr "Ο τύπος εγγράφου δεν έχει καθοριστεί"
+
+#: inc/class-oxygenorder.php:492
+msgid "Could not verify request"
+msgstr "Δεν ήταν δυνατή η επαλήθευση του αιτήματος"
+
+#: inc/class-oxygenorder.php:529 inc/class-oxygenorder.php:532
+msgid "Invalid Payment Note Type"
+msgstr "Μη έγκυρος τύπος εγγράφου"
+
+#: inc/class-oxygenorder.php:606 inc/class-oxygenorder.php:609
+msgid "Payment method not found"
+msgstr "Ο τρόπος πληρωμής δεν βρέθηκε"
+
+#: inc/class-oxygenorder.php:657 inc/class-oxygenorder.php:660
+msgid "Invoice details are missing or incomplete"
+msgstr "Τα στοιχεία του τιμολογίου λείπουν ή είναι ελλιπή"
+
+#: inc/class-oxygenorder.php:740
+msgid "Could not create contact"
+msgstr "Δεν ήταν δυνατή η δημιουργία επαφής"
+
+#. translators: %s: order ID string
+#: inc/class-oxygenorder.php:760 inc/class-oxygenorder.php:778
+#, php-format
+msgid "Order No %s"
+msgstr "Παραγγελία No %s"
+
+#: inc/class-oxygenorder.php:850
+msgid "Shipping: "
+msgstr "Μεταφορικά: "
+
+#: inc/class-oxygenorder.php:954
+msgid "Notice Created"
+msgstr "Η ειδοποίηση δημιουργήθηκε"
+
+#: inc/class-oxygenorder.php:977
+msgid "Invoice Created"
+msgstr "Το τιμολόγιο δημιουργήθηκε"
+
+#: inc/class-oxygenorder.php:981
+msgid "Could not save PDF invoice file in "
+msgstr "Δεν ήταν δυνατή η αποθήκευση του αρχείου τιμολογίου PDF στο "
+
+#: inc/class-oxygenorder.php:1013
+msgid "Could not create notice"
+msgstr "Δεν ήταν δυνατή η δημιουργία ειδοποίησης"
+
+#: inc/class-oxygenorder.php:1016
+msgid "Could not create invoice"
+msgstr "Δεν ήταν δυνατή η δημιουργία τιμολογίου"
+
+#: inc/class-oxygenorder.php:1122 inc/class-oxygenorder.php:1182 inc/class-oxygenorder.php:1275
+#: inc/class-oxygenorder.php:1299 inc/class-oxygenorder.php:1355
+msgid "VAT #"
+msgstr "ΑΦΜ"
+
+#: inc/class-oxygenorder.php:1123
+msgid "ex. EL1234567890"
+msgstr "π.χ. EL1234567890"
+
+#: inc/class-oxygenorder.php:1128 inc/class-oxygenorder.php:1192 inc/class-oxygenorder.php:1278
+#: inc/class-oxygenorder.php:1303 inc/class-oxygenorder.php:1360
+msgid "Job Description Field"
+msgstr "Πεδίο Επαγγέλματος"
+
+#: inc/class-oxygenorder.php:1129
+msgid "ex. Accountant"
+msgstr "πχ. Λογιστής"
+
+#: inc/class-oxygenorder.php:1134 inc/class-oxygenorder.php:1201 inc/class-oxygenorder.php:1365
+msgid "Tax Office"
+msgstr "ΔΟΥ"
+
+#: inc/class-oxygenorder.php:1135
+msgid "ex. D"
+msgstr "πχ. Α Αθήνας"
+
+#: inc/class-oxygenorder.php:1140
+msgid "I need an invoice"
+msgstr "Να εκδοθεί τιμολόγιο"
+
+#: inc/class-oxygenorder.php:1155
+msgid "Please fill VAT ID"
+msgstr "Παρακαλώ συμπληρώστε το ΑΦΜ"
+
+#: inc/class-oxygenorder.php:1158
+msgid "Please fill billing job"
+msgstr "Παρακαλώ συμπληρώστε το αντικείμενο εργασίας"
+
+#: inc/class-oxygenorder.php:1161
+msgid "Please fill billing tax office"
+msgstr "Παρακαλώ συμπληρώστε τη ΔΟΥ"
+
+#: inc/class-oxygenorder.php:1161
+msgid "Please fill the billing company name"
+msgstr "Παρακαλώ συμπληρώστε την επωνυμία της εταιρείας"
+
+#: inc/class-oxygenorder.php:1183
+msgctxt "placeholder"
+msgid "VAT #"
+msgstr "ΑΦΜ"
+
+#: inc/class-oxygenorder.php:1193
+msgctxt "placeholder"
+msgid "Job Description Field"
+msgstr "Πεδίο Επαγγέλματος"
+
+#: inc/class-oxygenorder.php:1202
+msgctxt "placeholder"
+msgid "Tax Office"
+msgstr "ΔΟΥ"
+
+#: inc/class-oxygenorder.php:1211 inc/class-oxygenorder.php:1284 inc/class-oxygenorder.php:1311
+#: inc/class-oxygenorder.php:1370
+msgid "Issue invoice"
+msgstr "Έκδοση τιμολογίου"
+
+#: inc/class-oxygenorder.php:1212
+msgctxt "placeholder"
+msgid "Issue invoice"
+msgstr "Έκδοση τιμολογίου"
+
+#: inc/class-oxygenorder.php:1281 inc/class-oxygenorder.php:1307
+msgid "Tax office"
+msgstr "ΔΟΥ"
+
+#: inc/class-oxygenorder.php:1314
+msgid "1 is on, 0 is off"
+msgstr "Το 1 είναι ενεργοποιημένο, το 0 είναι απενεργοποιημένο"
+
+#: inc/class-oxygenorder.php:1428
+msgid "Receipt"
+msgstr "Απόδειξη"
+
+#: inc/class-oxygenorder.php:1430
+msgid "Invoice"
+msgstr "Προβολή Τιμολογίου"
+
+#: inc/class-oxygenorder.php:1442 inc/class-oxygenwoosettings.php:288
+msgid "Notice"
+msgstr "Προβολή ειδοποίησης"
+
+#: inc/class-oxygenwoosettings.php:103
+msgid "Could not connect to Oxygen."
+msgstr "Δεν ήταν δυνατή η σύνδεση με το Oxygen."
+
+#: inc/class-oxygenwoosettings.php:106
+msgid "Connected to Oxygen"
+msgstr "Έγινε σύνδεση με το Oxygen"
+
+#: inc/class-oxygenwoosettings.php:191
+msgid "Oxygen Settings"
+msgstr "Ρυθμίσεις Oxygen"
+
+#: inc/class-oxygenwoosettings.php:193
+msgid "The following options are used to configure the Oxygen Pelatologio"
+msgstr "Οι ακόλουθες επιλογές χρησιμοποιούνται για τη ρύθμιση παραμέτρων του Oxygen Πελατολόγιο"
+
+#: inc/class-oxygenwoosettings.php:198
+msgid "Oxygen API Key"
+msgstr "Κλειδί API Oxygen"
+
+#: inc/class-oxygenwoosettings.php:199
+msgid "API key provided by Oxygen Pelatologio"
+msgstr "Το κλειδί API παρέχεται από το Oxygen Πελατολόγιο"
+
+#: inc/class-oxygenwoosettings.php:202
+msgid ""
+"API key provided by <a href=\"https://www.pelatologio.gr/\" target=\"_blank\" title=\"Oxygen "
+"Pelatologio\">Oxygen Pelatologio</a>"
+msgstr ""
+"To κλειδί API παρέχεται από το <a href=\"https://www.pelatologio.gr/\" target=\"_blank\" title=\"Oxygen "
+"Pelatologio\">Oxygen Pelatologio</a>"
+
+#: inc/class-oxygenwoosettings.php:206
+msgid "Enviroment"
+msgstr "Περιβάλλον"
+
+#: inc/class-oxygenwoosettings.php:210
+msgid "Live"
+msgstr "Σε λειτουργία"
+
+#: inc/class-oxygenwoosettings.php:211
+msgid "Sandbox"
+msgstr "Δοκιμαστικό"
+
+#: inc/class-oxygenwoosettings.php:217
+msgid "<span class=\"alert danger\">You are on SANDBOX mode</span>"
+msgstr "<span class=\"alert danger\">Βρίσκεστε σε ΔΟΚΙΜΑΣΤΙΚΗ λειτουργία</span>"
+
+#: inc/class-oxygenwoosettings.php:221
+msgid "<span class=\"alert success\">You are on LIVE mode</span>"
+msgstr "<span class=\"alert success\">Βρίσκεστε σε ΚΑΝΟΝΙΚΗ λειτουργία</span>"
+
+#: inc/class-oxygenwoosettings.php:225
+msgid "Default myData Category"
+msgstr "Προεπιλεγμένη κατηγορία myData"
+
+#: inc/class-oxygenwoosettings.php:231
+msgid "Default myData Classification Type"
+msgstr "Προεπιλεγμένος τύπος ταξινόμησης myData"
+
+#: inc/class-oxygenwoosettings.php:237
+msgid "Default myData Category Receipt"
+msgstr "Προεπιλεγμένη κατηγορία myData για αποδείξεις"
+
+#: inc/class-oxygenwoosettings.php:243
+msgid "Default myData Classification Type Receipt"
+msgstr "Προεπιλεγμένος τύπος ταξινόμησης myData για αποδείξεις"
+
+#: inc/class-oxygenwoosettings.php:258
+msgid "Customer VAT/TIN number Key"
+msgstr "Υπάρχουσα τιμή για το ΑΦΜ"
+
+#: inc/class-oxygenwoosettings.php:264
+msgid "Customer Job Description Field Key"
+msgstr "Υπάρχουσα τιμή για το αντικείμενο εργασίας"
+
+#: inc/class-oxygenwoosettings.php:270
+msgid "Customer Tax Office Field Key"
+msgstr "Υπάρχουσα τιμή για τη ΔΟΥ"
+
+#: inc/class-oxygenwoosettings.php:276
+msgid "Auto-issue an invoice or notice when this field is checked"
+msgstr "Έκδοση τιμολογίου κατά την επιλογή αυτού του πεδίου"
+
+#: inc/class-oxygenwoosettings.php:282
+msgid "Default document type"
+msgstr "Προεπιλεγμένος τύπος εγγράφου"
+
+#: inc/class-oxygenwoosettings.php:287
+msgid "Invoice / Receipt"
+msgstr "Τιμολόγιο / Απόδειξη"
+
+#: inc/class-oxygenwoosettings.php:293
+msgid "Documents logo"
+msgstr "Λογότυπο εγγράφων"
+
+#: inc/class-oxygenwoosettings.php:301
+msgid "Create the checkout fields for me"
+msgstr "Δημιουργία των πεδίων τιμολόγησης κατά την παραγγελία"
+
+#: inc/class-oxygenwoosettings.php:302
+msgid ""
+"The Oxygen plugin will create the fields for the customer VAT/TIN number and Job Description Field for you"
+msgstr "Το πρόσθετο θα δημιουργήσει τα αναγκαία πεδία για την τιμολόγηση"
+
+#: inc/class-oxygenwoosettings.php:302
+msgid ""
+"Fetch invoice data via vat number (VIES) on checkout page"
+msgstr "Άντληση στοιχείων για τη τιμολόγηση μέσω ΑΦΜ (VIES) στη σελίδα του ταμείου"
+
+#: inc/class-oxygenwoosettings.php:302
+msgid ""
+"The Oxygen plugin will search through TAXISNET for Greek vat numbers or through VIES for intra-EU vat numbers and fill in the necessary fields for pricing on the checkout page"
+msgstr "Το πρόσθετο θα πραγματοποιήσει αναζήτηση μέσω TAXISNET για Ελληνικά ΑΦΜ ή μέσω VIES για ενδοκοινοτικά ΑΦΜ και θα συμπληρώσει αυτόματα τα απαραίτητα πεδία για την τιμολόγηση στη σελίδα του ταμείου"
+
+#: inc/class-oxygenwoosettings.php:311
+msgid "Default Document Type"
+msgstr "Προεπιλεγμένος τύπος εγγράφου"
+
+#: inc/class-oxygenwoosettings.php:315
+msgid "Default Receipt Document Type"
+msgstr "Προεπιλεγμένος τύπος εγγράφου απόδειξης"
+
+#: inc/class-oxygenwoosettings.php:319
+msgid "Type of receipt document to create when the below order status is met"
+msgstr "Δημιουργία αυτού του τύπου εγγράφου για την έκδοση απόδειξης κατά την παρακάτω κατάσταση παραγγελίας"
+
+#: inc/class-oxygenwoosettings.php:321
+msgid "Select print type for receipts"
+msgstr "Επιλέξτε τύπο εκτύπωσης για αποδείξεις"
+
+#: inc/class-oxygenwoosettings.php:321
+msgid "80mm ( for thermal printer)"
+msgstr "80mm ( για θερμικό εκτυπωτή)"
+
+#: inc/class-oxygenwoosettings.php:320
+msgid "Oxygen print type for receipts"
+msgstr "Τύπος εκτύπωσης για αποδείξεις"
+
+#: inc/class-oxygenwoosettings.php:321
+msgid "Select print type (optional)"
+msgstr "Επιλέξτε τύπο εκτύπωσης (προαιρετικό)"
+
+#: inc/class-oxygenwoosettings.php:322
+msgid "Select 80mm if you want to print your receipts exclusive on 80mm (thermal printer)"
+msgstr "Επιλέξτε 80mm εάν θέλετε να εκτυπώσετε τις αποδείξεις σας αποκλειστικά σε 80mm (θερμικός εκτυπωτής)"
+
+#: inc/class-oxygenwoosettings.php:323
+msgid "Default Invoice Document Type"
+msgstr "Προεπιλεγμένος τύπος εγγράφου τιμολογίου"
+
+#: inc/class-oxygenwoosettings.php:327
+msgid "Type of invoice document to create when the below order status is met"
+msgstr "Δημιουργία αυτού του τύπου εγγράφου για την έκδοση τιμολογίου κατά την παρακάτω κατάσταση παραγγελίας"
+
+#: inc/class-oxygenwoosettings.php:331
+msgid "Document shipping code"
+msgstr "Κωδικός αποστολής εγγράφων"
+
+#: inc/class-oxygenwoosettings.php:334
+msgid "Please use latin letters and numbers only. Do NOT use spaces and special characters."
+msgstr "Επιτρέπονται μόνο λατινικοί χαρακτήρες και αριθμοί. Μην χρησιμοποιείτε κενά και ειδικούς χαρακτήρες."
+
+#: inc/class-oxygenwoosettings.php:338
+msgid "Default Order Status"
+msgstr "Προεπιλεγμένη κατάσταση παραγγελίας"
+
+#: inc/class-oxygenwoosettings.php:341
+msgid "Do not autocreate"
+msgstr "Να μην δημιουργείται αυτόματα"
+
+#: inc/class-oxygenwoosettings.php:342
+msgid "Order status to autocreate the invoice"
+msgstr "Κατάσταση παραγγελίας για την αυτόματη δημιουργία του τιμολογίου"
+
+#: inc/class-oxygenwoosettings.php:346
+msgid "Attach Invoice/Receipt on order email for the above order status"
+msgstr "Επισύναψη εγγράφου στα email των παραγγελιών για την παραπάνω κατάσταση"
+
+#: inc/class-oxygenwoosettings.php:349
+msgid "The document will be auto attached on the order email to the customer"
+msgstr "Θα γίνει επισύναψη του εγγράφου στο email προς τον πελάτη"
+
+#: inc/class-oxygenwoosettings.php:353
+msgid "Invoice/Receipt Language"
+msgstr "Γλώσσα παραστατικού"
+
+#: inc/class-oxygenwoosettings.php:354
+msgid "Use order's language"
+msgstr "Χρησιμοποιήστε τη γλώσσα της παραγγελίας"
+
+#: inc/class-oxygenwoosettings.php:357
+msgid "Greek"
+msgstr "Ελληνικά"
+
+#: inc/class-oxygenwoosettings.php:358
+msgid "English"
+msgstr "Αγγλικά"
+
+#: inc/class-oxygenwoosettings.php:360
+msgid "Select the language of your invoices or receipts."
+msgstr "Επιλέξτε τη γλώσσα των παραστατικών σας."
+
+#: inc/class-oxygenwoosettings.php:364
+msgid "Invoice/Receipt Paid Status"
+msgstr "Κατάσταση πληρωμής παραστατικού"
+
+#: inc/class-oxygenwoosettings.php:368
+msgid "Paid"
+msgstr "Εξωφληθέν"
+
+#: inc/class-oxygenwoosettings.php:369
+msgid "Unpaid"
+msgstr "Μη Εξοφλημένο"
+
+#: inc/class-oxygenwoosettings.php:371
+msgid "Select the default payment status (paid or not paid)."
+msgstr "Επιλέξτε την προεπιλεγμένη κατάσταση πληρωμής των παραστατικών."
+
+#: inc/class-oxygenwoosettings.php:378
+msgid "Numbering Sequences (Series)"
+msgstr "Σειρές"
+
+#: inc/class-oxygenwoosettings.php:398
+msgid "Taxes Configuration"
+msgstr "Ρυθμίσεις φόρων"
+
+#: inc/class-oxygenwoosettings.php:419
+msgid "Payment Methods"
+msgstr "Τρόποι Πληρωμής"
+
+#: inc/class-oxygenwoosettings.php:440
+msgid "Developer Settings"
+msgstr "Ρυθμίσεις προγραμματιστή"
+
+#: inc/class-oxygenwoosettings.php:444
+msgid "Enable oxygen debug"
+msgstr "Ενεργοποίηση εντοπισμού σφαλμάτων του Oχygen"
+
+#: inc/class-oxygenwoosettings.php:451
+msgid "Default Oxygen Payment order status"
+msgstr "Προεπιλεγμένη κατάσταση παραγγελίας"
+
+#: inc/class-oxygenwoosettings.php:445
+msgid "Oxygen Payments - Order Status"
+msgstr "Oxygen Payments - Κατάσταση παραγγελίας"
+
+#: inc/class-oxygenwoosettings.php:456
+msgid "Order status after the successful payment with Oxygen Payments"
+msgstr "Κατάσταση παραγγελίας μετά από την επιτυχημένη πληρωμή μέσω Oxygen Payments"
+
+#: inc/class-oxygenwoosettings.php:465
+msgid "This will add WooCommerce logs for Oxygen plugin actions"
+msgstr "Ενεργοποιεί αρχεία καταγραφής σφαλμάτων για το πρόσθετο Oxygen"
+
+#: inc/class-oxygenwoosettings.php:568
+msgid "Inactive"
+msgstr "Ανενεργό"
+
+#: inc/class-oxygenwoosettings.php:700
+msgctxt "Oxygen product settings"
+msgid "Oxygen options"
+msgstr "Επιλογές Oxygen"
+
+#: inc/class-oxygenwoosettings.php:726
+msgid "Product myData Category"
+msgstr "Κατηγορία myData του προϊόντος"
+
+#: inc/class-oxygenwoosettings.php:728
+msgid "This will override the category classification value"
+msgstr "Αυτό θα αντικαταστήσει την τιμή της κατηγορίας"
+
+#: inc/class-oxygenwoosettings.php:739
+msgid "Product myData Classification Type"
+msgstr "Τύπος ταξινόμησης myData του προϊόντος"
+
+#: inc/class-oxygenwoosettings.php:741
+msgid "This will override the category value"
+msgstr "Αυτό θα αντικαταστήσει την τιμή της κατηγορίας"
+
+#: inc/class-oxygenwoosettings.php:752
+msgid "Product myData Category Receipt"
+msgstr "Κατηγορία myData του προϊόντος για αποδείξεις"
+
+#: inc/class-oxygenwoosettings.php:754
+msgid "This will override the category receipt classification value"
+msgstr "Αυτό θα αντικαταστήσει την τιμή της κατηγορίας"
+
+#: inc/class-oxygenwoosettings.php:765
+msgid "Product myData Classification Type Receipt"
+msgstr "Τύπος ταξινόμησης myData του προϊόντος για αποδείξεις"
+
+#: inc/class-oxygenwoosettings.php:767
+msgid "This will override the category receipt value"
+msgstr "Αυτό θα αντικαταστήσει την τιμή της κατηγορίας για αποδείξεις"
+
+#: inc/class-oxygenwoosettings.php:788 inc/class-oxygenwoosettings.php:871
+msgid "myData Category"
+msgstr "Κατηγορία myData"
+
+#: inc/class-oxygenwoosettings.php:804 inc/class-oxygenwoosettings.php:889
+msgid "myData Type"
+msgstr "Τύπος myData"
+
+#: inc/class-oxygenwoosettings.php:820 inc/class-oxygenwoosettings.php:908
+msgid "myData Category Receipt"
+msgstr "Κατηγορία myData για αποδείξεις"
+
+#: inc/class-oxygenwoosettings.php:836 inc/class-oxygenwoosettings.php:926
+msgid "myData Type Receipt"
+msgstr "Τύπος myData για αποδείξεις"
+
+#: inc/class-oxygenwoosettings.php:1198
+msgid "The numbering sequences values are empty"
+msgstr "Οι τιμές των σειρών δεν έχουν οριστεί"
+
+#: inc/class-oxygenwoosettings.php:1206
+msgid "The taxes configuration has not been setup"
+msgstr "Η παράμετροι των φόρων δεν έχει ρυθμιστεί"
+
+#: inc/class-oxygenwoosettings.php:1212
+msgid "The payment methods have not been setup"
+msgstr "Οι τρόποι πληρωμής δεν έχουν ρυθμιστεί"
+
+#: inc/class-oxygenwoosettings.php:1218
+msgid "The default myData category has not been setup"
+msgstr "Η προεπιλεγμένη κατηγορία myData δεν έχει ρυθμιστεί"
+
+#: inc/class-oxygenwoosettings.php:1224
+msgid "The default myData classification type has not been setup"
+msgstr "Ο προεπιλεγμένος τύπος ταξινόμησης myData δεν έχει ρυθμιστεί"
+
+#: inc/class-oxygenorder.php:1608
+msgid "The VAT number field is mandatory for issuing an invoice."
+msgstr "Το πεδίο ΑΦΜ είναι υποχρεωτικό για την έκδοση τιμολογίου."
+
+#: inc/class-oxygenorder.php:1612
+msgid "The VAT number is incorrect."
+msgstr "Το ΑΦΜ που έχετε συμπληρώσει δεν είναι σωστό."
+
+#: inc/class-oxygenorder.php:1617
+msgid "The Profession field is mandatory for invoicing."
+msgstr "Το πεδίο Επαγγέλματος είναι υποχρεωτικό για την έκδοση τιμολογίου."
+
+#: inc/class-oxygenorder.php:1621
+msgid "The DOU field is mandatory for issuing an invoice."
+msgstr "Το πεδίο ΔΟΥ είναι υποχρεωτικό για την έκδοση τιμολογίου."
+
+#: inc/class-oxygenwoosettings.php:1230
+msgid "The default myData category receipt has not been setup"
+msgstr "Η προεπιλεγμένη κατηγορία myData για αποδείξεις δεν έχει ρυθμιστεί"
+
+#: inc/class-oxygenwoosettings.php:1236
+msgid "The default myData classification receipt type has not been setup"
+msgstr "Ο προεπιλεγμένος τύπος ταξινόμησης myData για αποδείξεις δεν έχει ρυθμιστεί"
+
+#: inc/class-wc-oxygenpayment-gateway.php:96
+msgid "Oxygen Payments are not activated. Sign up here to enable them."
+msgstr "Δεν έχετε ενεργή την υπηρεσία Oxygen Payments. Για να ενεργοποιήσετε το plugin, εγγραφείτε εδώ:"
+
+#: inc/class-wc-oxygenpayment-gateway.php:139
+msgid "Enable or Disable Oxygen Payment Gateway"
+msgstr "Ενεργοποίηση ή απενεργοποίηση της πύλης πληρωμής Oxygen"
+
+#: inc/class-wc-oxygenpayment-gateway.php:145
+msgid "Add a new title for Oxygen Payments (Debit/Credit card)"
+msgstr "Προσθέστε νέο τίτλο για τα Oxygen Payments (Χρεωστική/Πιστωτική κάρτα)"
+
+#: inc/class-wc-oxygenpayment-gateway.php:146
+msgid "Oxygen Payments (Debit/Credit card)"
+msgstr "Oxygen Payments (Χρεωστική/Πιστωτική κάρτα)"
+
+#: inc/class-wc-oxygenpayment-gateway.php:153
+msgid "You will be redirected to a secure payment environment. Please wait until the transaction is completed."
+msgstr "Θα οδηγηθείτε σε ασφαλές περιβάλλον πληρωμής. Παραμείνετε μέχρι να ολοκληρωθεί η συναλλαγή."
+
+#: inc/class-wc-oxygenpayment-gateway.php:155
+msgid "Add a description for the Oxygen Payment Gateway that will be displayed to customers at checkout."
+msgstr "Προσθέστε περιγραφή για την Πύλη Πληρωμών Oxygen που θα δουν οι πελάτες στη σελίδα ολοκλήρωσης αγοράς."
+
+#: inc/class-wc-oxygenpayment-gateway.php:163
+msgid "Instructions on how to pay via Oxygen Payments"
+msgstr "Οδηγίες για το πώς να πληρώσετε μέσω Oxygen Payments"
+
+#: inc/class-wc-oxygenpayment-gateway.php:52
+msgid "Enable Oxygen Payments plugin for processing online card payments."
+msgstr "Ενεργοποίηση Oxygen Payments plugin για την online χρέωση κάρτας."
+
+#: inc/class-wc-oxygenpayment-gateway.php:279
+msgid "Order's Number:"
+msgstr "Αρ. Παραγγελίας:"
+
+#: inc/class-wc-oxygenpayment-gateway.php:282
+msgid "Total"
+msgstr "Σύνολο"
+
+#. Plugin Name of the plugin/theme
+msgid "Oxygen MyData"
+msgstr "Oxygen MyData"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/oxygen-mydata/"
+msgstr "https://wordpress.org/plugins/oxygen-mydata/"
+
+#. Description of the plugin/theme
+msgid "A WordPress plugin to connect WooCommerce with Oxygen Pelatologio and MyData"
+msgstr "Ένα πρόσθετο για το WordPress για τον συγχρονισμό του Oxygen Πελατολόγιο και του WooCommerce"
+
+#. Author URI of the plugin/theme
+msgid "https://pelatologio.gr/"
+msgstr "https://pelatologio.gr/"
+
+#~ msgid "Not paid"
+#~ msgstr "Ανεξόφλητο"
+
+#~ msgid "Default Customer"
+#~ msgstr "Προεπιλεγμένος πελάτης"
+
+#~ msgid "Work Field"
+#~ msgstr "Αντικείμενο εργασίας"
+
+#~ msgctxt "placeholder"
+#~ msgid "Work Field"
+#~ msgstr "Αντικείμενο εργασίας"
+
+#~ msgid "Work field"
+#~ msgstr "Αντικείμενο εργασίας"
+
+#~ msgid "Test"
+#~ msgstr "Δοκιμαστικό"
+
+#~ msgid "Oxygen MyData for WooCommerce"
+#~ msgstr "Oxygen MyData για το WooCommerce"

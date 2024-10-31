@@ -1,0 +1,544 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Oxygen MyData for WooCommerce\n"
+"POT-Creation-Date: 2024-03-29 05:16+0200\n"
+"PO-Revision-Date: 2022-07-29 01:36+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: oxygen-mydata.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/class-oxygen.php:105
+msgid "Settings"
+msgstr ""
+
+#. Author of the plugin/theme
+#: inc/class-oxygenorder.php:188 inc/class-oxygenorder.php:1394
+#: inc/class-oxygenwoosettings.php:83
+msgid "Oxygen"
+msgstr ""
+
+#: inc/class-oxygenorder.php:215
+msgid "Oxygen setup"
+msgstr ""
+
+#: inc/class-oxygenorder.php:239
+msgid "View Receipt"
+msgstr ""
+
+#: inc/class-oxygenorder.php:241 inc/class-oxygenorder.php:1423
+#: inc/class-oxygenorder.php:1732
+msgid "View Invoice"
+msgstr ""
+
+#: inc/class-oxygenorder.php:245 inc/class-oxygenorder.php:1424
+#: inc/class-oxygenorder.php:1733
+msgid "PDF Download"
+msgstr ""
+
+#: inc/class-oxygenorder.php:249
+msgid "Oxygen Receipt"
+msgstr ""
+
+#: inc/class-oxygenorder.php:251
+msgid "Oxygen invoice:"
+msgstr ""
+
+#: inc/class-oxygenorder.php:264
+msgid "Payment Note Type"
+msgstr ""
+
+#: inc/class-oxygenorder.php:278
+msgid "Create Invoice"
+msgstr ""
+
+#: inc/class-oxygenorder.php:283 inc/class-oxygenorder.php:1441
+#: inc/class-oxygenorder.php:1742
+msgid "View Notice"
+msgstr ""
+
+#: inc/class-oxygenorder.php:287
+msgid "Create Notice"
+msgstr ""
+
+#. translators: %s: URL to Oxygen platform
+#: inc/class-oxygenorder.php:383
+#, php-format
+msgid ""
+"<p>The Oxygen API key is missing. <a href=\"%s\">Click here to add one</a>.</"
+"p>"
+msgstr ""
+
+#: inc/class-oxygenorder.php:445
+msgid "Invalid Oxygen action"
+msgstr ""
+
+#: inc/class-oxygenorder.php:449 inc/class-oxygenorder.php:546
+#: inc/class-oxygenorder.php:549
+msgid "Payment Note Type has not been defined"
+msgstr ""
+
+#: inc/class-oxygenorder.php:492
+msgid "Could not verify request"
+msgstr ""
+
+#: inc/class-oxygenorder.php:529 inc/class-oxygenorder.php:532
+msgid "Invalid Payment Note Type"
+msgstr ""
+
+#: inc/class-oxygenorder.php:606 inc/class-oxygenorder.php:609
+msgid "Payment method not found"
+msgstr ""
+
+#: inc/class-oxygenorder.php:657 inc/class-oxygenorder.php:660
+msgid "Invoice details are missing or incomplete"
+msgstr ""
+
+#: inc/class-oxygenorder.php:740
+msgid "Could not create contact"
+msgstr ""
+
+#. translators: %s: order ID string
+#: inc/class-oxygenorder.php:760 inc/class-oxygenorder.php:778
+#, php-format
+msgid "Order No %s"
+msgstr ""
+
+#: inc/class-oxygenorder.php:850
+msgid "Shipping: "
+msgstr ""
+
+#: inc/class-oxygenorder.php:954
+msgid "Notice Created"
+msgstr ""
+
+#: inc/class-oxygenorder.php:977
+msgid "Invoice Created"
+msgstr ""
+
+#: inc/class-oxygenorder.php:981
+msgid "Could not save PDF invoice file in "
+msgstr ""
+
+#: inc/class-oxygenorder.php:1013
+msgid "Could not create notice"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1016
+msgid "Could not create invoice"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1122 inc/class-oxygenorder.php:1182
+#: inc/class-oxygenorder.php:1275 inc/class-oxygenorder.php:1299
+#: inc/class-oxygenorder.php:1355
+msgid "VAT #"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1123
+msgid "ex. EL1234567890"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1128 inc/class-oxygenorder.php:1192
+#: inc/class-oxygenorder.php:1278 inc/class-oxygenorder.php:1303
+#: inc/class-oxygenorder.php:1360
+msgid "Job Description Field"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1129
+msgid "ex. Accountant"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1134 inc/class-oxygenorder.php:1201
+#: inc/class-oxygenorder.php:1365
+msgid "Tax Office"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1135
+msgid "ex. D"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1140
+msgid "I need an invoice"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1155
+msgid "Please fill VAT ID"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1158
+msgid "Please fill billing job"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1161
+msgid "Please fill billing tax office"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1183
+msgctxt "placeholder"
+msgid "VAT #"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1193
+msgctxt "placeholder"
+msgid "Job Description Field"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1202
+msgctxt "placeholder"
+msgid "Tax Office"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1211 inc/class-oxygenorder.php:1284
+#: inc/class-oxygenorder.php:1311 inc/class-oxygenorder.php:1370
+msgid "Issue invoice"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1212
+msgctxt "placeholder"
+msgid "Issue invoice"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1281 inc/class-oxygenorder.php:1307
+msgid "Tax office"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1314
+msgid "1 is on, 0 is off"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1428
+msgid "Receipt"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1430
+msgid "Invoice"
+msgstr ""
+
+#: inc/class-oxygenorder.php:1442 inc/class-oxygenwoosettings.php:288
+msgid "Notice"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:103
+msgid "Could not connect to Oxygen."
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:106
+msgid "Connected to Oxygen"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:191
+msgid "Oxygen Settings"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:193
+msgid "The following options are used to configure the Oxygen Pelatologio"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:198
+msgid "Oxygen API Key"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:199
+msgid "API key provided by Oxygen Pelatologio"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:202
+msgid ""
+"API key provided by <a href=\"https://www.pelatologio.gr/\" target=\"_blank"
+"\" title=\"Oxygen Pelatologio\">Oxygen Pelatologio</a>"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:206
+msgid "Enviroment"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:210
+msgid "Live"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:211
+msgid "Sandbox"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:217
+msgid "<span class=\"alert danger\">You are on SANDBOX mode</span>"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:221
+msgid "<span class=\"alert success\">You are on LIVE mode</span>"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:225
+msgid "Default myData Category"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:231
+msgid "Default myData Classification Type"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:237
+msgid "Default myData Category Receipt"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:243
+msgid "Default myData Classification Type Receipt"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:258
+msgid "Customer VAT/TIN number Key"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:264
+msgid "Customer Job Description Field Key"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:270
+msgid "Customer Tax Office Field Key"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:276
+msgid "Auto-issue an invoice or notice when this field is checked"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:282
+msgid "Default document type"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:287
+msgid "Invoice / Receipt"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:293
+msgid "Documents logo"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:301
+msgid "Create the checkout fields for me"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:302
+msgid ""
+"The Oxygen plugin will create the fields for the customer VAT/TIN number and "
+"Job Description Field for you"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:311
+msgid "Default Document Type"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:315
+msgid "Default Receipt Document Type"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:319
+msgid "Type of receipt document to create when the below order status is met"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:323
+msgid "Default Invoice Document Type"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:327
+msgid "Type of invoice document to create when the below order status is met"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:331
+msgid "Document shipping code"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:334
+msgid ""
+"Please use latin letters and numbers only. Do NOT use spaces and special "
+"characters."
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:338
+msgid "Default Order Status"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:341
+msgid "Do not autocreate"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:342
+msgid "Order status to autocreate the invoice"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:346
+msgid "Attach Invoice/Receipt on order email for the above order status"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:349
+msgid "The document will be auto attached on the order email to the customer"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:353
+msgid "Invoice/Receipt Language"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:357
+msgid "Greek"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:358
+msgid "English"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:360
+msgid "Select the language of your invoices or receipts."
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:364
+msgid "Invoice/Receipt Paid Status"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:368
+msgid "Paid"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:369
+msgid "Unpaid"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:371
+msgid "Select the default payment status (paid or not paid)."
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:378
+msgid "Numbering Sequences (Series)"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:398
+msgid "Taxes Configuration"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:419
+msgid "Payment Methods"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:440
+msgid "Developer Settings"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:444
+msgid "Enable oxygen debug"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:451
+msgid "This will add WooCommerce logs for Oxygen plugin actions"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:568
+msgid "Inactive"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:700
+msgctxt "Oxygen product settings"
+msgid "Oxygen options"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:726
+msgid "Product myData Category"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:728
+msgid "This will override the category classification value"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:739
+msgid "Product myData Classification Type"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:741
+msgid "This will override the category value"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:752
+msgid "Product myData Category Receipt"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:754
+msgid "This will override the category receipt classification value"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:765
+msgid "Product myData Classification Type Receipt"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:767
+msgid "This will override the category receipt value"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:788 inc/class-oxygenwoosettings.php:871
+msgid "myData Category"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:804 inc/class-oxygenwoosettings.php:889
+msgid "myData Type"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:820 inc/class-oxygenwoosettings.php:908
+msgid "myData Category Receipt"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:836 inc/class-oxygenwoosettings.php:926
+msgid "myData Type Receipt"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:1198
+msgid "The numbering sequences values are empty"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:1206
+msgid "The taxes configuration has not been setup"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:1212
+msgid "The payment methods have not been setup"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:1218
+msgid "The default myData category has not been setup"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:1224
+msgid "The default myData classification type has not been setup"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:1230
+msgid "The default myData category receipt has not been setup"
+msgstr ""
+
+#: inc/class-oxygenwoosettings.php:1236
+msgid "The default myData classification receipt type has not been setup"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Oxygen MyData"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/oxygen-mydata/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A WordPress plugin to connect WooCommerce with Oxygen Pelatologio and MyData"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://pelatologio.gr/"
+msgstr ""

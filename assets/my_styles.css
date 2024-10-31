@@ -1,0 +1,310 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url('../../../../wordpress_plus_payments/wordpress/wp-content/plugins/oxygen-woocommerce-plugin/assets/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+.my_modal	{
+	font-family: 'OpenSans', sans-serif;
+}
+
+#iframe{
+	border-color:transparent;
+	border-radius: 6px;
+}
+
+.left_side_oxy_woo{
+	min-width: 407px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	box-shadow: 0 24px 32px 0 rgba(12, 0, 51, 0.1);
+	background-blend-mode: multiply, normal;
+	background-image: linear-gradient(to right, rgba(108, 0, 147, 0.5) 0%, rgba(108, 0, 147, 0.12) 40%), linear-gradient(to bottom, #6c0093, #6c0093);
+	color:white;
+}
+
+#openOxyPayment{
+
+	margin: 0 auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	width:1024px;
+	background-color: white;
+	border-radius: 6px;
+	max-height: 612px;
+}
+
+#openOxyPayment .my_modal-body{
+	display:flex;
+	max-height: 612px;
+}
+
+.close_payment{
+	position: absolute;
+	right: 40px;
+	top: 24px;
+	cursor:pointer;
+}
+
+.payment_footer{
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	color: #999ca9;
+	line-height: 1;
+}
+.payment_footer>a{
+	color: #999ca9!important;
+}
+
+.payment_footer.parent {
+	padding: 20px 40px;
+	position: absolute;
+	bottom: 0;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 407px;
+	align-items: start;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+	.response_payment {
+		text-align: center;
+	}
+
+	.overlay__content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		left: 50%!important;
+	}
+
+	.full_cover_mobile{
+		width: 100%;
+		height: 100vh;
+		position: fixed;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		z-index: 10000;
+		left: 0;
+		top: 0;
+		min-width: 100%;
+		min-height: 100%;
+		background-image: linear-gradient(to right, rgba(108, 0, 147, 0.5) 0%, rgba(108, 0, 147, 0.12) 40%), linear-gradient(to bottom, #6c0093, #6c0093);
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	.mainlogo {
+		padding: 12px 40px;
+		display: flex;
+		align-items: center;
+	}
+
+	#iframe{
+
+		min-height: 600px!important;
+		overflow: hidden;
+		margin: 0;
+		border: none;
+		border-radius: 0;
+	}
+
+	.left_side_oxy_woo{
+		height: 100%;
+		padding:40px;
+		max-height: 400px;
+		position: relative;
+		border-radius:0!important;
+		margin-top: -10px;
+	}
+
+	.payment_footer.mob {
+
+		justify-content: space-between;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		font-size: 12px;
+		color: #999ca9;
+		line-height: 1;
+	}
+	.payment_footer>a{
+		color: #999ca9!important;
+	}
+
+	.close_payment {
+		top: 32px;
+	}
+
+}
+
+.payment_footer > a > p{
+	margin-bottom: 0!important;
+}
+
+@media (max-width:420px){
+
+
+	/*.payment_footer.mob {*/
+
+	/*	align-items: flex-start;*/
+	/*	flex-direction: column;*/
+	/*}*/
+
+	.whiteBox {
+
+		padding:20px 0!important;
+		overflow-x: hidden;
+	}
+
+	.left_side_oxy_woo {
+		min-width: 340px!important;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 1024px)  {
+
+	.left_side_oxy_woo{
+		margin-top: -10px!important;
+	}
+
+	.left_side_oxy_woo .first_left{
+		max-width: 520px;
+		margin: 0 auto;
+
+	}
+	.lang_box{
+		max-width: 760px;
+		margin: 0 auto;
+	}
+}
+
+.overlay_loader {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: #222222d9;
+	z-index: 15;
+}
+
+.overlay__inner {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.overlay__content {
+	left: 58%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display:flex;
+}
+
+.spinner {
+	width: 75px;
+	height: 75px;
+	display: inline-block;
+	border-width: 2px;
+	border-color: rgba(255, 255, 255, 0.05);
+	border-top-color: #fff;
+	animation: spin 1s infinite linear;
+	border-radius: 100%;
+	border-style: solid;
+}
+
+@keyframes spin {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.response_payment{
+	font-weight: bold;
+	margin-top: 2rem;
+	margin-left: 1rem;
+	color: white;
+}
+
+.wc_payment_method.payment_method_oxygen_payment > label{
+	display: flex!important;
+	align-items: start;
+}
+
+.wc_payment_method.payment_method_oxygen_payment > label > img{
+	margin-left:20px;
+}
+
+/* this hides oxygen payment from Σελίδα πληρωμής πελάτη , if clicked from admin edit order page */
+form#order_review .wc_payment_method.payment_method_oxygen_payment{
+	display: none!important;
+}
+
+.custom-vat-field .woocommerce-input-wrapper{
+	position: relative;
+}
+
+#vat-check-button{
+	width: 40px;
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #9737f8;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	height: 48px;
+	border-radius: 2px;
+}
+#vat-check-button:hover{
+	background-color: #672ca3;
+}
+
+.div_vat{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
+
+.error_border{
+	border:1px solid red!important;
+}
+/* HTML: <div class="loader"></div> */
+.loading_vat {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 21px;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	border: 3px solid white;
+	animation: l20-1 0.8s infinite linear alternate, l20-2 1.6s infinite linear;
+}
+
+@keyframes l20-1{
+	0%    {clip-path: polygon(50% 50%,0       0,  50%   0%,  50%    0%, 50%    0%, 50%    0%, 50%    0% )}
+	12.5% {clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100%   0%, 100%   0%, 100%   0% )}
+	25%   {clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100% 100%, 100% 100%, 100% 100% )}
+	50%   {clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100% 100%, 50%  100%, 0%   100% )}
+	62.5% {clip-path: polygon(50% 50%,100%    0, 100%   0%,  100%   0%, 100% 100%, 50%  100%, 0%   100% )}
+	75%   {clip-path: polygon(50% 50%,100% 100%, 100% 100%,  100% 100%, 100% 100%, 50%  100%, 0%   100% )}
+	100%  {clip-path: polygon(50% 50%,50%  100%,  50% 100%,   50% 100%,  50% 100%, 50%  100%, 0%   100% )}
+}
+@keyframes l20-2{
+	0%    {transform:scaleY(1)  rotate(0deg)}
+	49.99%{transform:scaleY(1)  rotate(135deg)}
+	50%   {transform:scaleY(-1) rotate(0deg)}
+	100%  {transform:scaleY(-1) rotate(-135deg)}
+}
